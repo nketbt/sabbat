@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'horror';
+    src: url("g_comichorrorR_freeR.ttf") format("truetype");
+    font-display: swap; }
+body{background-color:#ffffff8e;
+    
+    background-position: center top;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family: 'Noto Sans JP', sans-serif;}
+
+    li{list-style:none;}    
+
+    .main-logo{display: flex;}
+    .logo-1{width: 10%;}
+    .logo-2{width: 90%;}
+
+.main-nav{text-indent:100%;
+	white-space:nowrap;
+	overflow:hidden;}
+   
+    .image-container{display:flex;
+    border-top:solid ;
+position: relative;
+bottom: 80px;}
+    .image-container img{width: 50%;
+    height: auto;
+margin-bottom: -90px;}
+
+.main-art h1{font-size: 7;
+text-align: center;
+font-family:'horror' ;
+line-height: 70%;
+color:rgb(202, 8, 8) ;
+margin-top: 30px;
+margin-bottom: 30px;}
+
+article{background-image:url(creepy.gif);}
+.main-0{font-size: 7;
+    text-align: center;
+    font-family:'horror' ;
+    color:rgb(202, 8, 8) ;}
+.main-0 h1{margin: 0px;
+margin-top: 20px;}    
+
+.main-1 h1{ color:rgb(202, 8, 8) ;
+padding: 30px;
+margin-top: -30px;}
+
+.li-h4{font-family: 'horror' ;
+font-size: 180%;
+color:rgb(202, 8, 8) ;
+margin-bottom:15px ;}
+.li-h2{line-height: 30px;}
+
+.link-class2{text-align: center;
+    background-color: rgb(255, 49, 49);
+    height: 40px;
+    width: 50%;
+    border-radius:10px;}
+.link-class2 a{color: rgb(255, 255, 255);
+    font-size: 170%;
+padding: auto;}
+
+.section h2{margin-top: 80px;
+color: rgb(0, 0, 0);
+}
+.section li{line-height: 28px;}
+.section a{width: 80%;}
+
+.aside-1{margin-left:-50px ;}
+h3{border-bottom: solid 3px;
+width: 60%;}
+.logo-a{width: 13%}
+.link-a{margin-left:0px;
+    color:rgb(202, 8, 8) ;
+   position: relative;
+   bottom: 15px; 
+   }
+
+
+footer{background-color: rgb(0, 0, 0);
+height: 150px;
+width: auto;
+display: flex;
+align-items: flex-end
+}
