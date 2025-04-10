@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'horror';
+    src: url("g_comichorrorR_freeR.ttf") format("truetype");
+    font-display: swap; }
+
+body{background-color:#ffffff8e;
+    
+    background-image: url();
+        background-position: center top;
+        background-size: cover;
+        
+        color: rgb(0, 0, 0);
+        font-family: 'Noto Sans JP', sans-serif;}
+
+header{
+    padding: 0 0 0 0;
+width: 100%;}
+.main-logo{
+padding-bottom: 25px;}     
+.logo-1{width: 7%;
+        height: auto;}
+.logo-2{width: 74%; 
+    height: auto;}
+
+.main-nav{
+    position: relative;
+}
+.main-nav a{color: rgb(202, 8, 8);}    
+
+main{background-image: url(a3.jpg);
+    background-position: center top;
+    background-size: cover;}
+
+article{background-image:url(a3.jpg);
+    background-position: center top;
+    background-size: cover;
+color: aliceblue;}    
+
+.image-container{display:flex;
+    text-align:center;
+    width: auto;
+    height: auto;
+    border-top:solid #000000;
+margin-top:-10px ;}
+
+.main-art{
+    padding-top: 30px;
+    padding-bottom: 15px;}
+.main-1{padding-bottom:20px ;}
+
+.li-h4{font-size: 250%;}
+.li-h2{font-size: 150%;}
+
+.link-class2{ width: 20%;
+    background: white;
+    border: 20px solid;
+    border-image: conic-gradient(#f5f551,#5eff5e,#84a1ff,#ff45ff,#ff5a5a,#ffbc41,#f5f551) 1;
+    height:auto;  }
+.link-class2 a{
+    background: linear-gradient(to right,#e60000,#f39800,#fff100,#009944,#0068b7,#1d2088,#920783);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 250%;
+    font-weight: bold;
+    display: inline-block;}
+
+    .aside{background-color: #ffffff;
+width: 30%;
+
+float: right;
+position: relative;
+bottom: 700px;
+right: 10000px;
+}
+
+.aside-0{display: flex;
+}
+.aside-1{width: 300%;
+height: auto;
+
+}
+.logo-1{
+transition: transform 0.4s;}
+.logo-a:hover  {
+    transform: scale(1.15);
+  }
+  .logo-a{margin:0px 40px;}
+
+  .link-a{font-size: 130%;
+    white-space: nowrap;
+    margin-top:0px ;
+    padding: 0px;
+position: relative;
+bottom:-1px;
+right:40px;
+}
+    
+
+.footer{width: 1500px;
+    height: 200px;
+    background-color: #e60000;
+}
