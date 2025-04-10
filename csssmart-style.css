@@ -71,17 +71,20 @@ color: rgb(0, 0, 0);
 .aside-1{margin-left:-50px ;}
 h3{border-bottom: solid 3px;
 width: 60%;}
-.logo-a{width: 13%}
+
+.logo-a{width: 25%}
 .link-a{margin-left:0px;
     color:rgb(202, 8, 8) ;
+    font-size: 150%;
    position: relative;
-   bottom: 15px; 
-   }
+   bottom: 70px;
+ }
 
 
 footer{background-color: rgb(0, 0, 0);
+width: 2000px;
 height: 150px;
-width: auto;
+word-wrap:break-word;
 display: flex;
 align-items: flex-end
 }
